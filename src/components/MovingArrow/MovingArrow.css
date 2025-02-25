@@ -1,0 +1,19 @@
+.Button{
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    padding: 1vh;
+    border-radius: 1vw;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Arrow{
+    justify-self: center;
+    font-size: 3vh;
+}
+
+.Button:hover {
+    transform: scale(1.2);
+}
+

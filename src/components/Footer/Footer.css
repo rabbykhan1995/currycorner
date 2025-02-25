@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Macondo&display=swap');
+
+.Main{
+    font-family: "Macondo", serif;
+    background-color: rgb(53, 52, 52);
+    color:whitesmoke;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.Contact_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Contact_Container h1 {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    gap: 1vw;
+}
+
+
+.Grid_Item {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    padding-top: 4vh ;
+    grid-template-rows: repeat(2, min-content);
+    justify-content: space-around;
+    row-gap: 5px;
+    font-size: medium;
+}
+
+@media (max-width:900px) {
+   .Grid_Item{
+    grid-template-columns: repeat(2, max-content) ;
+    grid-template-rows: repeat(4, min-content);
+    font-size: small;
+   } 
+
+   .Contact_Container{
+    font-size: small;
+    justify-self: center;
+    flex-direction: column;
+    padding: 10px;
+   }
+}

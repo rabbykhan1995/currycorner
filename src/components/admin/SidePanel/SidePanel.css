@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding:2vw;
+    height: 100%;
+    background: rgb(39, 29, 48);
+    color:white
+}
+
+.Any{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 10px;
+}

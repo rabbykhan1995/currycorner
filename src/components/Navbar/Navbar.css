@@ -1,0 +1,74 @@
+@keyframes slideIn {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0% 0;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        background-position: 0% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.Big_Display_Menu{
+    flex-direction: row;
+    justify-self: center;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.Small_Display_Menu{
+    position:absolute;
+    flex-direction: column;
+    gap: 20px;
+    justify-self: end;
+    align-self: flex-end;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    height: fit-content;
+    padding: 20px;
+}
+
+.Navbar_Buttons {
+    padding: 1vh 2vw;
+    color: black;
+    background: linear-gradient(to right, rgb(247, 108, 73) 50%, rgb(255, 255, 255)  50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    border: none;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+    position: relative;
+    border-radius: 5px;
+}
+
+/* On hover, background moves from left to right */
+.Navbar_Buttons:hover {
+    animation: slideIn 0.5s forwards;
+    color: white;
+}
+
+/* When hover is removed, background moves from right to left */
+.Navbar_Buttons:not(:hover) {
+    animation: slideOut 0.5s forwards;
+    color: black;
+}
+
+
+.Menu_Button{
+    font-size: 25px;
+    justify-self: end;
+    border: 2px solid black;
+}
+
+
+
+
+
+
