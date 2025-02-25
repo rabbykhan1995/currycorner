@@ -1,1 +1,2 @@
 
+NEXT_PUBLIC_BACKEND_URL_HOST = http://localhost:4000
