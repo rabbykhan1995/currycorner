@@ -28,8 +28,8 @@ const Navbar = () => {
             Home
           </Link>
 
-          <Link className="Navbar_Buttons" href={"/register"}>
-            Cook
+          <Link className="Navbar_Buttons" href={"/chief"}>
+            chief
           </Link>
           <Link className="Navbar_Buttons" href={"/menu"}>
             Menu
@@ -47,8 +47,8 @@ const Navbar = () => {
         <Link className="Navbar_Buttons" href={"/"}>
           Home
         </Link>
-        <Link className="Navbar_Buttons" href={"/register"}>
-          Cook
+        <Link className="Navbar_Buttons" href={"/chief"}>
+          Chief
         </Link>
         <Link className="Navbar_Buttons" href={"/menu"}>
           Menu

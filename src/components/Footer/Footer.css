@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Macondo&display=swap');
 
-.Main{
+.Main_Container{
     font-family: "Macondo", serif;
     background-color: rgb(53, 52, 52);
     color:whitesmoke;
@@ -45,4 +45,16 @@
     flex-direction: column;
     padding: 10px;
    }
+}
+
+.Social_Media{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Social_Media h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

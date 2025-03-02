@@ -1,11 +1,7 @@
-.dashboard {
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    grid-template-rows: repeat(2, min-content);
-    gap: 20px;
-    color: white;
+.Total {
+    display:flex;
+    color: rgb(95, 94, 94);
     justify-content: space-around;
-    width: 100%;
     font-size: small;
     padding: 2vw;
 }
@@ -21,4 +17,16 @@
     box-shadow: 2px 3px 2px rgb(104, 104, 104);
     border-radius: 10px;
     gap: 10px;
+}
+
+.Static_Card{
+    color: aliceblue;
+    text-align: center;
+    border: 2px solid rebeccapurple;
+    margin: 4vw;
+    padding:20px
+}
+.dashboard{
+    width: 100%;
+    overflow-y: auto;
 }

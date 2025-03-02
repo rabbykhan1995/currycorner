@@ -6,8 +6,11 @@ const ImageComponent = ({img}) => {
          <Image
                 src={img}
                 alt="Pexels Image"
-                width={1000}
-                height={1000} />
+                width={500}
+                height={500} 
+                loading="lazy"
+                className="rounded-xl" />
+               
         </div>
     )
 }

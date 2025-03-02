@@ -1,21 +1,21 @@
 import './Footer.css';
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt,FaFacebook } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaMapLocationDot } from "react-icons/fa6";
 
 const Footer = ()=>{
     return(
         <>
-        <main className='Main'>
+        <main className='Main_Container'>
             <div className="Contact_Container">
                 <h1>
-                <FaPhoneAlt className='text-green-400' />  01794893020
+                <FaPhoneAlt className='text-green-400' />  01721377210
                 </h1>
                 <h1>
-                <MdAlternateEmail />example@email.com
+                <MdAlternateEmail />riyahussain27@gmail.com
                 </h1>
                 <h1>
-                <FaMapLocationDot /> newyour, matbasorved, USA
+                <FaMapLocationDot /> Railgate, Rajshahi, Bangladesh
                 </h1>
             </div>
 
@@ -44,6 +44,9 @@ const Footer = ()=>{
                <h1>
                 Support & Feedback
                </h1>
+            </div>
+            <div className='Social_Media'>
+               <h1><FaFacebook className='text-xl' /> Facebook</h1>
             </div>
             </main></>
     )

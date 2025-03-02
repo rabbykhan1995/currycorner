@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 #Logo{
+    display: flex;
     font-family: "Macondo", serif;
      font-size: xx-large;
      font-weight: bolder;
