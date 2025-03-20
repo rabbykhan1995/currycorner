@@ -10,7 +10,7 @@ const SidePanel = () => {
         <div className='main'>
             <Link href={`${process.env.NEXT_PUBLIC_FRONTEND_HOST}/admin`} className='Any'><LuLayoutDashboard /> <span>Dash Board</span></Link>
             <h1 className='Any'><TbMessageFilled /><span>Messages</span></h1>
-            <h1 className='Any'><TfiSettings /><span>Customization</span></h1>
+            <Link href={`${process.env.NEXT_PUBLIC_FRONTEND_HOST}/admin/customization`} className='Any'><TfiSettings /><span>Customization</span></Link>
             <Link href={`${process.env.NEXT_PUBLIC_FRONTEND_HOST}/admin/orders`} className='Any'><LiaPeopleCarrySolid /><span>Orders</span></Link>
         </div>
     )
